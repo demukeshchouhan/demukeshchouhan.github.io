@@ -3,5 +3,10 @@
 	global.info = "builted by Mukesh Chouhan";
 	global.author = "Mukesh Chouhan";
 
-	console.log(global);
+	new Vue({
+		el : "#app",
+		data : {
+			name : "Vue Blog"
+		}
+	})
 })(window);
